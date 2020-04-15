@@ -34,27 +34,3 @@ $(function () {
     }
   });
 });
-
-// Preload Images
-
-let images = new Array();
-function preload() {
-  for (i = 0; i < preload.arguments.length; i++) {
-    images[i] = new Image();
-    images[i].src = preload.arguments[i];
-  }
-}
-preload(
-  'images/howtomedellin01.png',
-  'images/portfolio01.png',
-  'images/how-to-expat01.png',
-  'images/how-to-expat01.png',
-  'images/bibus01.png',
-  'images/traveling-silverback01.png',
-  'images/Icons02-HTM.png',
-  'images/Icons02-Portfolio.png',
-  'images/Icons02-HTE.png',
-  'images/Icons02-HTE-S.png',
-  'images/icons02-BIBUS.png',
-  'images/Icons02-Silverback.png'
-);
